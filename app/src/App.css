@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "LemonMocktail";
+  src: url(font.woff2) format("woff2");
+}
+
+.outer-box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-box {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "LemonMocktail";
+  font-size: 80pt;
+  color: white;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 3px;
+}
+
+.red {
+  -webkit-text-stroke-color: #8b0000;
+}
+
+.special {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.dark-mode {
+  background-color: #282828;
+  color: white;
+}
